@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: bisque;
+}
+header *{
+    display: inline;
+}
+header nav{
+    margin-left: 300px;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header .logo {
+    margin-left: 30px;
+}

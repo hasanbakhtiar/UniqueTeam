@@ -1,0 +1,40 @@
+/* h1{
+    color: blue;
+} */
+/* kodlar yuxaridan asagiya dogru oxunur. */
+
+/* ul>li{
+    color: red;
+}
+
+ul li{
+    color: green;
+}
+
+ul li{
+    color: blue;
+} */
+
+/* ol li ul li{
+    color: brown;
+} */
+
+/* h1:nth-child(1){
+    color: red;
+}
+
+h1:nth-child(3){
+    color: red;
+} */
+
+.custum-class-name{
+    color: green;
+}
+
+#custum-name-one{
+    color: red;
+}
+
+#custum-name-two{
+    color: red;
+}

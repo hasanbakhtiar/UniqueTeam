@@ -1,0 +1,28 @@
+.general-box {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.box-one {
+  background-color: red;
+}
+
+.box-two {
+  background-color: green;
+  /* margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px; */
+  /* if u write margin in one line u use clock direction */
+  /* margin: 100px 50px 20px 10px; */
+  /* padding-top: 100px;
+padding-right: 100px;
+padding-left: 100px;
+padding-bottom: 100px; */
+  /* padding: 100px 50px 20px 10px; */
+}
+
+.box-three {
+  background-color: blue;
+}

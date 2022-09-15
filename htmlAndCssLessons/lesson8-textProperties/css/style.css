@@ -1,0 +1,21 @@
+/*this is comment area*/
+/* ctrl + /  shortcut keyboard*/
+/* .my-text{
+    color: red;
+    font-size: 10px;
+} */
+
+
+.my-text{
+    color: red;
+    /* font-size: 20px; */
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* text-align: end; */
+    
+}
+a{
+    text-decoration: none;
+}

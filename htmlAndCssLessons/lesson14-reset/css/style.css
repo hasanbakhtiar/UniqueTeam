@@ -1,0 +1,7 @@
+/* @import url('reset.css'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box, a {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  font-family: "Bungee Spice", cursive;
+}
+.box::after, a::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 0px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+.box:hover::after, a:hover::after {
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */

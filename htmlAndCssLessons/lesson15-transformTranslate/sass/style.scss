@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// .box{
+//     position: relative;
+//     width: 100px;
+//     height: 100px;
+//     background-color: red;
+    // transform: translateY(200px);
+    // transform: translateX(200px);
+    // transform: translate(200px,100px);
+    // transform: rotate(180deg);
+    // transform: skewY(-20deg);
+    // transform: skewX(-20deg);
+    // transform: skew(20deg,100deg);
+    // transform: scaleY(2);
+    // transform: scaleX(2);
+    // transform: scale(2,3);
+    // matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+    // transform: matrix(1, 2, 0, 1, 200, 0);
+
+    // ================================================
+    // transition-duration:1s ;
+    // transition-property: background-color, width;
+    // transition-delay: 1s;
+    // transition: 1s width, 13s background-color;
+// }
+// .box:hover{
+    // background-color: green;
+    // width: 200px;
+    // transform: scaleX(2);
+// }
+
+// .box::before{
+//     content: "new value";
+//     display: block;
+//     background-color: bisque;
+//     width: 200px;
+//     height: 200px;
+    
+// }
+
+// .box::after{
+//     position: absolute;
+//     content: "";
+//     top: 0;
+//     left: 0;
+//     width: 100px;
+//     height: 0px;
+//     display: block;
+//     background-color: rgba($color: #000000, $alpha: .5);
+//     transition: 1s;
+// }
+// .box:hover::after{
+//     height: 100px;
+// }
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    font-family: 'Bungee Spice', cursive;
+
+    &::after{
+        position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 0px;
+            display: block;
+            background-color: rgba($color: #000000, $alpha: .5);
+            transition: 1s;
+    }
+    &:hover::after{
+        height: 100px;
+    }
+
+}
+
+a{
+    @extend .box;
+ 
+}

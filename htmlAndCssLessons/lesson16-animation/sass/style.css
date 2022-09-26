@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-clip-path: polygon(51% 31%, 30% 24%, 53% 64%);
+          clip-path: polygon(51% 31%, 30% 24%, 53% 64%);
+}
+
+@-webkit-keyframes my-animation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes my-animation {
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */

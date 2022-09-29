@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 400px 400px 100px;
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  background-color: #2196F3;
+}
+.grid-container .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

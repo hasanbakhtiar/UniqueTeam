@@ -1,0 +1,43 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  padding: 10px;
+  display: grid;
+  background-color: bisque;
+  grid-template-columns: 30% 70%;
+}
+header .logo {
+  padding-left: 10px;
+}
+header nav ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+header nav .mobile-icon {
+  display: none;
+}
+
+@media (max-width: 412px) {
+  header {
+    background-color: cadetblue;
+    height: 100px;
+  }
+  header nav ul {
+    display: none;
+  }
+  header nav .mobile-icon {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 400px 400px 100px ;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: #2196F3;
+    // padding: 10px;
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+      }
+  }
+//   grid-area 
+//   https://www.w3schools.com/cssref/pr_grid-area.asp
+
+// header{
+//     display: grid;
+//     grid-template-columns: 100px auto;
+//     width: 100%;
+//     height: 100px;
+//     background-color: bisque;
+//     .logo{
+      
+//     }
+//     nav{
+//         ul{
+//             // border: 1px solid #000;
+
+//             display: grid;
+//             grid-template-columns: auto auto auto auto auto;
+//             // padding: 10px;
+
+//             li{
+//                 list-style: none;
+//                 // border: 1px solid #000;
+//                 width: 30%;
+//           padding: 30px;
+
+//             }
+//         }
+//     }
+// }
+  

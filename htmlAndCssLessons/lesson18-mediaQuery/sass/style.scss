@@ -1,0 +1,71 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+// my basic reset end
+header{
+    padding: 10px;
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: 30% 70%;
+    .logo{
+        padding-left: 10px;
+        
+    }
+
+    nav{
+        ul{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+        }
+        .mobile-icon{
+            display: none;
+        }
+    }
+}
+
+// 0->your value = max
+// your value<-inifinity = min
+@media(max-width:412px){
+    header{
+        background-color: cadetblue;
+        height: 100px;
+        nav{
+            
+            ul{
+                display: none;
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: space-between;
+
+
+                
+            }
+            .mobile-icon{
+                display: block;
+            }
+        }
+    }
+}
+// /* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 600px) {...}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {...}
+
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {...}
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {...}
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {...}

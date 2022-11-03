@@ -1,0 +1,11 @@
+.dark-mode .box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.light-mode .hero .box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

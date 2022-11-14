@@ -1,0 +1,16 @@
+{
+    "cars":[
+        {
+            "brand":"BMW",
+            "mode":"X5"
+        },
+        {
+            "brand":"Mercedes",
+            "mode":"s500"
+        },
+        {
+            "brand":"Audi",
+            "mode":"X5"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+button {
+  border: none;
+  background-color: bisque;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 1px 1px #000;
+}
+
+ul {
+  width: 20%;
+  height: 30vh;
+  background-color: bisque;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 1px 1px #000;
+}
+
+.show {
+  transform: translateX(0);
+  transition: 1.5s;
+}
+
+.hide {
+  transform: translateX(-500px);
+  transition: 1.5s;
+}/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,8 @@ import Contact from '../pages/Contact'
 import Home from '../pages/Home'
 import NotFoundPage from '../pages/NotFoundPage'
 import Products from '../pages/Products'
+import Login from '../pages/Login'
+import ProductDetails from '../pages/ProductDetails'
 
 export class AppRouter extends Component {
   render() {
@@ -17,7 +19,9 @@ export class AppRouter extends Component {
             <Route path='/' element={<Home/>}></Route>
             <Route path='/about' element={<About/>}></Route>
             <Route path='/products' element={<Products/>}></Route>
+            <Route path='/products/:url' element={<ProductDetails/>}></Route>
             <Route path='/contact' element={<Contact/>}></Route>
+            <Route path='/login' element={<Login/>}></Route>
             <Route path='*' element={<NotFoundPage/>}></Route>
         </Routes>
       </div>

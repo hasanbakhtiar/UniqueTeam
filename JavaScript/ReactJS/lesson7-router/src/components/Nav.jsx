@@ -25,9 +25,10 @@ export class Nav extends Component {
         <li className="nav-item">
           <NavLink className="nav-link "  to="contact">Contact</NavLink>
         </li>
-
-
       </ul>
+      <div className="d-flex" role="search">
+        <Link to="login" className="btn btn-outline-warning">Sign In</Link>
+      </div>
     </div>
   </div>
 </nav>

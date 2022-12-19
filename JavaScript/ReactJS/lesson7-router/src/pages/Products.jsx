@@ -18,7 +18,7 @@ import SingleProduct from '../components/SingleProduct'
     return (
       <div className='row g-5'>
             {this.state.productData.map((fd,i)=>{
-               return <SingleProduct title={fd.title} photo={fd.image} key={i} desc={fd.description} price={fd.price} />
+               return <SingleProduct data={fd} id={fd.id} title={fd.title} photo={fd.image} key={i} desc={fd.description} price={fd.price} />
             })}
       </div>
     )

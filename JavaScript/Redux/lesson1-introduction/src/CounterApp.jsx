@@ -24,8 +24,9 @@ const counterReducer = (state = initalState, action) => {
     switch (action.type) {
 
       case "INCREMENT":
+        const myCount = typeof action.payload === "number" ? action.payload : 1
         return {
-          count: state.count + 1,
+          count: state.count + myCount ,
         };
 
       case "DECREMENT":
@@ -50,8 +51,9 @@ const store = createStore(counterReducer,
     );
 
 // Action
-const addCount = ()=>({
-        type:"INCREMENT"
+const addCount = (newvalue)=>({
+        type:"INCREMENT",
+        payload:newvalue
 })
 
 const removeCount = ()=>({
@@ -62,14 +64,15 @@ const resetCount = ()=>({
     type:"RESET"
 })
 
-store.dispatch(addCount())
-store.dispatch(addCount())
-store.dispatch(resetCount())
-store.dispatch(removeCount())
+store.subscribe(()=>{
+    console.log(store.getState());
+})
+
+// store.dispatch(addCount(15));
 
 
 
-console.log(store.getState());
+
 
 
 

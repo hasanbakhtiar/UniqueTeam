@@ -2,7 +2,7 @@ import React from 'react'
 import BlogForm from '../../../components/BlogForm'
 import { Col,Button } from 'react-bootstrap'
 import { connect } from 'react-redux'
-import { editBLog } from '../../../actions/blogAction'
+import { editBLog, removeBlog } from '../../../actions/blogAction'
 
 const EditBlog = props => {
   return (
@@ -16,7 +16,10 @@ const EditBlog = props => {
       props.history.push('/admin')
     }}
     />
-      <Button variant="danger" type="submit" className='mt-4'>
+      <Button onClick={()=>{
+          props.dispatch(removeBlog({id:props.pvalue.id}))
+          props.history.push('/admin')
+      }} variant="danger" type="submit" className='mt-4'>
           Delete
         </Button>
     </Col>

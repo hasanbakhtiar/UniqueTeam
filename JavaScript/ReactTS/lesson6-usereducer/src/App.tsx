@@ -24,7 +24,7 @@ const CounterReducer = (state: CounterState, action: CounterAction) => {
       return { count: state.count + action.payload };
     
       case "decrement":
-      return { count: state.count - action.payload };
+      return { count: state.count - (state.count > 0 ? action.payload : 0) };
         case 'reset':
             return initialState;
 
@@ -37,7 +37,7 @@ const App: React.FC = () => {
   const [state, dispatch] = useReducer(CounterReducer, initialState);
   return (
     <Container className="mt-5">
-      <Button variant="danger"   onClick={() => dispatch({ type: "decrement", payload: 1 })}>-1</Button>
+      <Button variant="danger"   onClick={() => dispatch({ type: "decrement", payload: 1  })}>-1</Button>
       <span className="mx-3">{state.count}</span>
       <Button
         variant="success"

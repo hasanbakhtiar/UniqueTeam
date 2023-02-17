@@ -1,0 +1,41 @@
+// $base-color: #036;
+
+// @for $i from 1 through 10 {
+//   li:nth-child( #{$i}) {
+//     background-color: lighten($base-color, $i * 5%);;
+//   }
+// }
+
+
+// $mycolor : blue;
+// $newcolor: $mycolor;
+
+// @if $newcolor == red{
+//     li{
+//         background-color: green;
+//     }
+// }
+// @else{
+//     li{
+//         background-color: yellow;
+//     }
+// }
+
+// @use "sass:color";
+// @use "sass:math";
+
+// li {
+//   $primary-color: #6b717f;
+//   color: $primary-color;
+//   border: 1px solid color.scale($primary-color, $lightness: 20%);
+//   font-size: math.min(20px,50px);
+// }
+
+
+// @function fontsize($main,$other){
+//         @return $main * $other;
+// }
+
+// li{
+//     font-size: fontsize(40,3 ) * 1px;
+// }

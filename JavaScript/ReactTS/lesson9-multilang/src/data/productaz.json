@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "title":"qelem",
+        "price":"10",
+        "color":"qirmizi"
+    },
+    {
+        "id":2,
+        "title":"defter",
+        "price":"20",
+        "color":"mavi"
+    },
+    {
+        "id":3,
+        "title":"kitab",
+        "price":"100",
+        "color":"yasil"
+    }
+]

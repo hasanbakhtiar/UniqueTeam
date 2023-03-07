@@ -1,0 +1,27 @@
+<Car id="1">
+    <brand>BMW</brand>
+    <model>X5</model>
+    <year>1990</year>
+    <color>yellow</color>
+</Car>
+
+<Car id="2">
+    <brand>BMW</brand>
+    <model>X5</model>
+    <year>1990</year>
+    <color>yellow</color>
+</Car>
+
+<Car>
+    <brand>BMW</brand>
+    <model>X5</model>
+    <year>1990</year>
+    <color>yellow</color>
+</Car>
+
+<Car>
+    <brand>BMW</brand>
+    <model>X5</model>
+    <year>1990</year>
+    <color>yellow</color>
+</Car>
